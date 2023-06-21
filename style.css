@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #6495ed;
+    margin: auto;
+    display: flex; 
+    width: 1000px;
+    align-items: center; 
+    justify-content: center;
+}
+.eye_container{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid;
+    border-radius: 40%;
+    margin-top: 50px;
+    background: hsla(0, 0%, 100%, 0.842);
+}
+.container{
+    display: flex;
+    border: solid green;
+    background: chocolate;
+    width: 700px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.card_container:hover{
+    transition: transform 0.5s;
+    transform: rotateY(180deg);
+}
+.card_container {
+    border: solid rgb(105, 93, 81);
+    background: rgb(197, 185, 52);
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    gap: 50px;
+}
+.inner_card{
+    border: solid;
+    background: #6495ed;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    margin: auto;
+    
+}
+.small_card{
+    border: 1px solid red;
+    border-radius: 50%;
+    background: whitesmoke;
+    width: 120px;
+    height: 70px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+p{
+ margin-top: 25px;
+ margin-left: 55px;
+ border: 1px solid blue;
+ border-radius: 50%;
+ width: 30px;
+ background: black;
+ color: antiquewhite;
+}
+.card_container1 {
+    border: solid rgb(105, 9, 81);
+    background: rgb(0, 185, 52);
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    
+}
+.card_container1:hover{
+    transition: transform 0.5s;
+    transform: rotateY(180deg);
+}
+.card_container2 {
+    border: solid rgb(10, 93, 81);
+    background: rgb(19, 110, 52);
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    
+}
+.card_container2:hover{
+    transition: transform 0.5s;
+    transform: rotateY(180deg);
+}
+.circle-container{
+    ''
+}
